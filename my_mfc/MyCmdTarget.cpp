@@ -1,6 +1,7 @@
 #include "MyCmdTarget.h"
 
 
+MY_IMPLEMENT_DYNAMIC(CMyCmdTarget, CMyObject)
 
 CMyCmdTarget::CMyCmdTarget()
 {

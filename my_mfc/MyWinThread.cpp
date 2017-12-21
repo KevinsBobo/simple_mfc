@@ -1,5 +1,6 @@
 #include "MyWinThread.h"
 
+MY_IMPLEMENT_DYNAMIC(CMyWinThread, CMyCmdTarget)
 
 
 CMyWinThread::CMyWinThread()

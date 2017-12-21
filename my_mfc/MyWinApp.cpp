@@ -1,5 +1,6 @@
 #include "MyWinApp.h"
 
+MY_IMPLEMENT_DYNAMIC(CMyWinApp, CMyWinThread)
 
 
 CMyWinApp::CMyWinApp()

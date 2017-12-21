@@ -3,6 +3,7 @@
 class CMyWinApp :
     public CMyWinThread
 {
+    MY_DECLARE_DYNAMIC(CMyWinApp)
 public:
     CMyWinApp();
     virtual ~CMyWinApp();

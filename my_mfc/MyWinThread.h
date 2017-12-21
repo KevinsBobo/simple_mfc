@@ -3,6 +3,7 @@
 class CMyWinThread :
     public CMyCmdTarget
 {
+    MY_DECLARE_DYNAMIC(CMyWinThread)
 public:
     CMyWinThread();
     virtual ~CMyWinThread();

@@ -113,19 +113,31 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyCmdTarget.cpp" />
+    <ClCompile Include="MyDocument.cpp" />
+    <ClCompile Include="MyMainFrame.cpp" />
     <ClCompile Include="MyObject.cpp" />
+    <ClCompile Include="MyView.cpp" />
     <ClCompile Include="MyWinApp.cpp" />
     <ClCompile Include="MyWinThread.cpp" />
     <ClCompile Include="MyWnd.cpp" />
     <ClCompile Include="TestApp.cpp" />
+    <ClCompile Include="TestDoc.cpp" />
+    <ClCompile Include="TestFrame.cpp" />
+    <ClCompile Include="TestView.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyCmdTarget.h" />
+    <ClInclude Include="MyDocument.h" />
+    <ClInclude Include="MyMainFrame.h" />
     <ClInclude Include="MyObject.h" />
+    <ClInclude Include="MyView.h" />
     <ClInclude Include="MyWinApp.h" />
     <ClInclude Include="MyWinThread.h" />
     <ClInclude Include="MyWnd.h" />
     <ClInclude Include="TestApp.h" />
+    <ClInclude Include="TestDoc.h" />
+    <ClInclude Include="TestFrame.h" />
+    <ClInclude Include="TestView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -36,6 +36,24 @@
     <ClCompile Include="TestApp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MyDocument.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMainFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyObject.h">
@@ -54,6 +72,24 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="TestApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDocument.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMainFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestView.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

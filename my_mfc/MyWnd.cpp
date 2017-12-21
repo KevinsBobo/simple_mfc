@@ -1,5 +1,6 @@
 #include "MyWnd.h"
 
+MY_IMPLEMENT_DYNCREATE(CMyWnd, CMyCmdTarget)
 
 
 CMyWnd::CMyWnd()
