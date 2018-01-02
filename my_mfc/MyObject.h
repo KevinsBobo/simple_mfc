@@ -10,13 +10,29 @@ using namespace std;
  * 全局实例句柄
  */
 extern HINSTANCE g_hInstance;
+/*
+ * 获取全局实例句柄
+ */
 HINSTANCE  MyGetInstanceHandle();
 
 class CMyWinThread;
+/*
+ * 获取全局实例对象
+ */
 CMyWinThread* MyGetThread();
 
 
+class CMyObject;
 class CMyRuntimeClass;
+/*
+ * 根据类名动态创建对象
+ */
+CMyObject *CreateMyObj(const char *pClsName);
+/*
+ * 根据pRuntimeClass动态创建对象
+ */
+void CreateObj(CMyRuntimeClass *pRuntimeClass);
+
 
 /*
  * 将某一类的static const classCMyXXX作为CMyRuntimeClass*返回
